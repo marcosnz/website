@@ -80,8 +80,8 @@ Task("Run-Unit-Tests")
 });
 ```
 
-This is using NUnit out of the box but you have MSTest and NUnit 
-test helpers as well. 
+This is using NUnit but (straight out of the box) you can use MSTest and 
+XUnit test helpers as well. 
 
 Adding the target doesn't necessarily run it unless another target is 
 dependent on it or you call it explicitly. In our case we can just 
